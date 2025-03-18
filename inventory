@@ -1,7 +1,7 @@
 [webservers]
-192.168.1.101
-192.168.1.102
+192.168.1.101 ansible_user=admin  ansible_ssh_port=2222
+192.168.1.102 ansible_user=admin  ansible_ssh_port=2222
 
 [databases]
-192.168.1.201
-192.168.1.202
+192.168.1.201 ansible_user=root
+192.168.1.202 ansible_user=root
